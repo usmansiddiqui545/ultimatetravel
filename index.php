@@ -2,19 +2,15 @@
 /**
  * Main template file.
  * 
- * @package blog
+ * @package ultimatetravel
  */
+get_header();
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ultimate Travel</title>
-  </head>
-<body>
-    Hello Wordpress!
-</body>
-</html>
+<div class="content">
+Content
+</div>
+
+<?php
+get_footer();
+   
