@@ -4,7 +4,6 @@
  * @package ultimatetravel
  * 
  */
-
  function ultimatetravel_enqueue_scripts() { 
      //Register styles
     wp_register_style( 'style-css' , get_stylesheet_uri(), [], filemtime( get_template_directory() . '/style.css'), 'all');
@@ -25,6 +24,6 @@
 
 }
  //hook name (wp_eqnueue__scripts)
- add_action( 'wp_eqnueue_scripts', 'ultimatetravel_enqueue_scripts' );
+ add_action( 'wp_enqueue_scripts', 'ultimatetravel_enqueue_scripts' );
 
  ?>
